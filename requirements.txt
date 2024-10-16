@@ -1,0 +1,7 @@
+sounddevice
+numpy
+webrtcvad
+pydub
+edge-tts
+groq
+python-dotenv
