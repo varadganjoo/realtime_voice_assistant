@@ -25,18 +25,21 @@ This assistant listens to your voice in real time, detects when you're speaking,
 
 1. Clone the repository:
 
-   bash
+   ```bash
    git clone https://github.com/your-repository-url.git
+   ```
 
 2. Navigate to the project directory:
 
-   bash
+   ```bash
    cd realtime-voice-assistant
+   ```
 
 3. Install the required dependencies:
 
-   bash
+   ```bash
    pip install -r requirements.txt
+   ```
 
 4. Set up your environment variables by creating a `.env` file with your Groq API key:
 
@@ -49,8 +52,9 @@ GROQ_API_KEY=your_groq_api_key
 
 To start the real-time assistant, simply run:
 
-bash
+```bash
 python app.py
+```
 
 Once the program is running, it will begin listening to your voice. When speech is detected, it transcribes the audio, sends it to Groq's LLM, and reads back the response via TTS.
 
